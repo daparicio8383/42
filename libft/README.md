@@ -1,4 +1,4 @@
-# Libft
+# Libft project
 
 ## Libc functions
 
@@ -10,8 +10,7 @@ In **Libft**, some Libc functions will have to be redone. These
 functions will have the **same prototypes and implement the same 
 behaviors** as the original ones.
 
-<details>
-<summary>Function list</summary>
+## Function list
 
 - ### ft_isalpha
 ft_isalpha() function checks whether a character is an alphabet (a to z and A-Z) or not.
