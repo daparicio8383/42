@@ -1,6 +1,6 @@
-## Libft
+# Libft
 
-### Libc functions
+## Libc functions
 
 The term “libc” is commonly used as a shorthand for the “standard
 C library” a library of standard functions that can be used by
