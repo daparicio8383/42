@@ -11,7 +11,7 @@ functions will have the **same prototypes and implement the same
 behaviors** as the original ones.
 
 
--  ft_isalpha
+- ### ft_isalpha
 ft_isalpha() function checks whether a character is an alphabet (a to z and A-Z) or not.
 If a character passed to ft_isalpha() is an alphabet, it returns a non-zero integer, if not it returns 0.
 
