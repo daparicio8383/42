@@ -1,6 +1,8 @@
 # Libft
 
-## Libc functions
+<details>
+
+<summary>## Libc functions</summary>
 
 The term “libc” is commonly used as a shorthand for the “standard
 C library” a library of standard functions that can be used by
@@ -66,3 +68,4 @@ This function returns a pointer to the memory location where data is copied.
 
 ft_memmove() copies n characters from the object pointed to by s2 into the object pointed to by s1. It returns a pointer to the destination (s1).
 
+</details>
