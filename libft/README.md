@@ -13,13 +13,11 @@ behaviors** as the original ones.
 ---
 
 #### ft_isalpha
-
 ft_isalpha() function checks whether a character is an alphabet (a to z and A-Z) or not.
 If a character passed to ft_isalpha() is an alphabet, it returns a non-zero integer, if not it returns 0.
 
 
 #### ft_isdigit
-
 ft_isdigit() takes a single argument in the form of an integer and returns the value of type int.
 If ft_isdigit() takes integer as an argument, character is passed to the function and converted
 to its ASCII value for the check.
