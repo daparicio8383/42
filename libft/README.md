@@ -1,7 +1,5 @@
 # Libft
 
-<details>
-
 ## Libc functions
 
 The term “libc” is commonly used as a shorthand for the “standard
@@ -12,6 +10,7 @@ In **Libft**, some Libc functions will have to be redone. These
 functions will have the **same prototypes and implement the same 
 behaviors** as the original ones.
 
+<details>
 <summary>Function list</summary>
 
 - ### ft_isalpha
