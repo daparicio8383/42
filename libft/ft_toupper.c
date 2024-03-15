@@ -6,13 +6,13 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:26:34 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/15 10:27:53 by davapari         ###   ########.fr       */
+/*   Updated: 2024/03/15 10:40:10 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_toupper(int c)
 {
-	if (c > 'a' && c < 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		c = c - 32;
 		return (c);
