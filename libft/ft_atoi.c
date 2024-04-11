@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/31 11:12:07 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/31 11:16:10 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:47:43 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {

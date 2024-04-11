@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/09 08:35:31 by davapari          #+#    #+#             */
-/*   Updated: 2023/09/10 07:51:38 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:57:51 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 07:12:59 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/14 05:51:29 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:46:38 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

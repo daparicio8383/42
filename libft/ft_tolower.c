@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:43:44 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/15 10:44:59 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 07:00:56 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

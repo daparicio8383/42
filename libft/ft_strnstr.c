@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/28 08:37:08 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/28 09:37:25 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:58:31 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

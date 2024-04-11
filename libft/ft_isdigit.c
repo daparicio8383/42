@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 05:44:27 by davapari          #+#    #+#             */
-/*   Updated: 2023/09/07 06:50:43 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:49:25 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isdigit(int character)
 {

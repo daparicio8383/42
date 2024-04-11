@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 09:33:25 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/15 09:34:28 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:57:05 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

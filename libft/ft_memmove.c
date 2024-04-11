@@ -6,12 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/10 07:53:14 by davapari          #+#    #+#             */
-/*   Updated: 2023/09/26 06:20:16 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:52:33 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

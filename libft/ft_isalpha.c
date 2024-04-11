@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 05:44:27 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/14 05:48:03 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:48:23 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isalpha(int character)
 {

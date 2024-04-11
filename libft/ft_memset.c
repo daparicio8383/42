@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 06:17:35 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/14 06:06:24 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:52:56 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {

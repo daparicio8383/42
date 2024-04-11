@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 06:39:40 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/18 06:39:47 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:59:17 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

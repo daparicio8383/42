@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 14:46:57 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/14 15:26:54 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:57:25 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+# include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {

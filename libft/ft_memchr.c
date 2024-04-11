@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 06:04:37 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/21 06:05:28 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:50:46 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

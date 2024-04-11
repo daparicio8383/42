@@ -6,9 +6,11 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 06:11:24 by davapari          #+#    #+#             */
-/*   Updated: 2024/03/22 06:17:51 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/11 06:51:05 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
