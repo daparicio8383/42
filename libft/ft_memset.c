@@ -6,7 +6,7 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 06:17:35 by davapari          #+#    #+#             */
-/*   Updated: 2024/04/11 06:52:56 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/12 07:24:57 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	str = (char *)s;
 	while (str[i] != '\0' && i < n)
 	{
-		str[i] = c + '0';
+		str[i] = c;
 		i++;
 	}
 	return (s);
