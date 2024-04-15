@@ -6,7 +6,7 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/10 07:53:14 by davapari          #+#    #+#             */
-/*   Updated: 2024/04/11 06:51:53 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/15 06:19:47 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	sr = (char *)src;
 	while (i < n)
 	{
-		ds[n] = sr[n];
+		ds[i] = sr[i];
 		i++;
 	}
 	return (dest);
