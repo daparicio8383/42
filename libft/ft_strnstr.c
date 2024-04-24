@@ -6,7 +6,7 @@
 /*   By: davapari <davapari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/28 08:37:08 by davapari          #+#    #+#             */
-/*   Updated: 2024/04/11 06:58:31 by davapari         ###   ########.fr       */
+/*   Updated: 2024/04/24 10:56:02 by davapari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,19 +21,13 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	j = 0;
 	if ((char)little[i] == '\0')
 		return ((char *)big);
-	while (i < len && *big && *little)
+	while (i < len && *big)
 	{
-		if (big[i] != little[j])
-			i++;
-		else
-		{
-			if (big[i] == little[j])
-			{
-				i++;
-				j++;
-			}
-			return ((char *)(big + i - j));
-		}
+		while (i + j < len && big[i + j] == little[j])
+			j++;
+		if (little[j] == '\0')
+			return ((char *)(big + i));
+		i++;
 	}
 	return (NULL);
 }
